@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    color: rgb(235, 235, 235);
+    background-color: rgb(33, 38, 105);
+    
+} 
+
+
+#btn { 
+    background-color:  #0a0190 ;
+    padding: 5px;
+    margin: 8px;
+    display: inline;
+}   
+
+
+
+#list{
+     text-align: justify;
+     font-size: 25px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin: 50px;
+     font-weight: bold;
+     list-style: lower-roman;
+    
+}
+
+input{
+    
+    background-color: #cac4bb26;
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: rgb(223, 216, 206);
+}
+
+input:focus ,  input:hover{
+    outline: none;
+    border: none;
+    background-color: #0084ff26;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    font-size: large;
+    text-align: center;
+    
+  }
+
+  button{
+      color: black  ;
+      background-color: #D0D3D4;
+      padding: 10px 15px;
+      font-size: 15px;
+      font-family: serif;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+     
+      margin: 10px 20px;
+     
+     
+  }
+
+  button:hover{
+      background-color: rgb(76, 86, 143);
+      box-shadow: 1px 1px 15px rgb(81, 79, 195);
+      color: antiquewhite;
+  }
+
+
+  hr{
+      width: 300px;
+      margin-top: 40px;
+  }
+
+
+.btn{
+    display: flex;
+    font-family: monospace;
+    text-align: center;
+}
+  /* #btn:hover{
+    background-color: rgb(76, 86, 143);
+    box-shadow: 1px 1px 15px rgb(81, 79, 195);
+    color: antiquewhite;
+  } */
+
+  h2{
+      color: rgb(158, 158, 209);
+      font-size: 30px;
+      font-family: serif;
+      padding: 2px;
+  }

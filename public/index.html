@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAWLMxqQLUUKBXNNwOLtFA_1RVPwcYoD1o",
+          authDomain: "todo-app-7fb4d.firebaseapp.com",
+          databaseURL: "https://todo-app-7fb4d-default-rtdb.firebaseio.com",
+          projectId: "todo-app-7fb4d",
+          storageBucket: "todo-app-7fb4d.appspot.com",
+          messagingSenderId: "217503427161",
+          appId: "1:217503427161:web:34c325eb39a9e77b4a1f48"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    
+</head>
+
+<body>
+      <h2>Enter Your Task List Here</h2>
+      
+     <div>
+        <input placeholder="Enter Task" type="text" id="todo-item">
+        <button onclick="addTodo()">ADD TASK</button>
+        <button onclick="deleteAll()">DELETE ALL</button>
+    </div> 
+<hr>
+    <div>
+        <ul id="list">
+          
+        </ul>
+    </div>
+
+    
+</body>
+
+</html>
+<script src="app.js"></script>
+</body>
+</html>
